@@ -2,7 +2,6 @@ package com.david.core.exception;
 
 import com.david.core.http.ApiError;
 import com.david.core.http.ApiResponse;
-
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.ConstraintViolationException;
 

@@ -19,11 +19,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.david</groupId>
-            <artifactId>http</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
@@ -52,6 +47,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.david</groupId>
+            <artifactId>commons.core.http</artifactId>
         </dependency>
     </dependencies>
 

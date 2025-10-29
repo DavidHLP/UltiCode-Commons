@@ -8,11 +8,11 @@ import java.util.Map;
  * 控制器统一返回结构，便于各微服务之间扩展与协作。
  *
  * @param isSuccess 标识本次调用是否成功
- * @param data 成功时的业务数据
- * @param error 失败时的错误描述
+ * @param data      成功时的业务数据
+ * @param error     失败时的错误描述
  * @param timestamp 响应产生时间
- * @param metadata 额外的扩展字段
- * @param <T> 业务数据类型
+ * @param metadata  额外的扩展字段
+ * @param <T>       业务数据类型
  */
 public record ApiResponse<T>(
         boolean isSuccess,
