@@ -1,0 +1,19 @@
+package com.david.core.security;
+
+/**
+ * 统一审计动作枚举，便于跨服务记录审计日志。
+ */
+public enum AuditAction {
+    LOGIN_SUCCESS,
+    LOGIN_FAILURE,
+    TOKEN_REVOKED,
+    ROLE_PERMISSION_UPDATED,
+    USER_ROLE_CHANGED,
+    USER_REGISTERED,
+    TWO_FACTOR_ENABLED,
+    TWO_FACTOR_DISABLED,
+    SENSITIVE_ACTION_TOKEN_ISSUED,
+    SECURITY_POLICY_CHANGED,
+    SSO_SESSION_CREATED,
+    SSO_SESSION_REVOKED
+}
