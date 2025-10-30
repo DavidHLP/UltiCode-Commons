@@ -36,4 +36,5 @@ application-myself.yml
 **.rdb
 
 **.log
-**/data
+**/data**/target/
+*.jar
