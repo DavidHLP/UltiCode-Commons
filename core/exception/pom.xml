@@ -20,7 +20,7 @@
     <dependencies>
         <dependency>
             <groupId>com.david</groupId>
-            <artifactId>http</artifactId>
+            <artifactId>commons.core.http</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>

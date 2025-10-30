@@ -1,7 +1,7 @@
 com/david/core/forward/ForwardedUserHeaders.class
+com/david/core/forward/ForwardedUserContextFilter.class
 com/david/core/forward/ForwardedAuthenticationToken.class
 com/david/core/forward/ForwardedUserParser.class
-com/david/core/forward/ForwardedUserContextFilter.class
 com/david/core/forward/ForwardedUser.class
 com/david/core/forward/AppConvention.class
 com/david/core/forward/ForwardedSecurityAutoConfiguration.class
