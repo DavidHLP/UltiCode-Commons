@@ -1,9 +1,8 @@
 package com.david.core.forward;
 
-import lombok.Getter;
-
 import java.time.Duration;
 import java.util.List;
+import lombok.Getter;
 
 @Getter
 public abstract class AppConvention {
@@ -17,7 +16,7 @@ public abstract class AppConvention {
                     "/api/auth/introspect",
                     "/actuator/**");
 
-    protected static final List<String> DEFAULT_ALLOWED_ORIGINS = List.of("http://localhost:5173");
+    protected static final List<String> DEFAULT_ALLOWED_ORIGINS = List.of("http://localhost:5173" , "http://localhost:5174");
 
     protected static final Duration DEFAULT_TOKEN_CACHE_TTL = Duration.ofSeconds(30);
 
